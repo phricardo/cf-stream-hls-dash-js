@@ -1,8 +1,9 @@
 (async () => {
-  const accountId = "";
-  const apiToken = "";
-  const videoId = "";
-  const customerCode = "";
+  // Prompt the user to enter credentials and IDs
+  const accountId = prompt("❓ Enter your Account ID (accountId):");
+  const apiToken = prompt("❓ Enter your API Token:");
+  const videoId = prompt("❓ Enter the Video ID:");
+  const customerCode = prompt("❓ Enter the Customer Code:");
 
   try {
     // Fetch the playback token
